@@ -1,0 +1,98 @@
+\documentclass{report}
+
+
+\begin{document}
+\title{Test Document}
+\maketitle
+
+\section{Introduction}
+L’informatique est une ressource qui devient de plus en plus indispensable dans 
+presque dans tous les domaines de la vie. Grace à son rapide développement 
+nous assistons aujourd’hui à une véritable révolution technologique.
+
+Ayant pris conscience des nombreux gains qu’offre l’informatique, les entreprises se sont 
+aperçues qu’il est improbable voir impossible d’avoir une entreprise non informatisée.Ainsi l'enjeu pour ces entreprises ne serait pas uniquement de mettre en place des systèmes informatiques mais aussi il serait important de pouvoir s'asurer du bon fonctionnement de ces derniers.De ce fait,le suivi et la surveillance des systèmes informatiques sont des éléments essentiels de la gestion de l'infrastructure informatique dans toute organisation. 
+
+C’est dans ce contexte que eNaNoTech, qui est une entreprise spécialisée dans le développement de solutions innovantes en matière de nanotechnologie, m’a accepté dans leur local pour une période de stage dans le but de développer un outil de monitoring qui permettra aux administrateurs systèmes de surveiller en temps réel la performance, la disponibilité et la santé des différents composants de l'infrastructure.
+
+Ce rapport de projet de fin d’études en vue de l’obtention du diplôme de Master Professionnel
+en Ingénierie des Systèmes d’Informations s’organisera en 4 chapitres : 
+
+Le premier chapitre nommer cadre général du projet va présenter l’organisme d’accueil et le 
+projet. Ensuite nous ferons une étude et critique de l’existant pour proposer notre solution. 
+
+Pour le second chapitre intitulé analyse et spécifications des besoins, nous allons énoncer les 
+différents acteurs y compris certains diagrammes avec les besoins fonctionnels et non 
+fonctionnels de notre système.
+
+Concernant le troisième chapitre intitulé conception, il s’agit de faire la modélisation de notre 
+système avec certains diagrammes.
+
+Enfin le dernier chapitre sera l’implémentation, il aura pour but de présenter l’environnement 
+de développement et d’exposer les différentes interfaces développées pour notre système.
+Pour finir, nous terminerons ce présent rapport en récapitulant le travail effectué puis 
+montrerons les différentes perspectives possibles pour le projet.
+\section{cadre general}
+Introduction:
+Dans ce chapitre, nous donnerons une description du projet et décrirons l’organisme d’accueil.
+Ensuite nous ferons l’étude et la critique de l’existant qui est d’étudier le système existant.
+
+1. Présentation du projet:
+
+1.1. Cadre du projet:
+Notre projet s’inscrit dans le cadre de stage de projet de fin d’étude à la Faculté des Sciences de Monastir (FSM). Il s’est déroulé dans le local de la société eNanoTech et a pour sujet le developpemnt d'un outil de monotoring.
+
+1.2. Présentation de l’organisme d’accueil:
+//eNaNoTech
+
+eNaNoTech est une entreprise basée à Monastir en Tunisie, spécialisée dans le développement de solutions innovantes en matière de nanotechnologie. Elle propose une gamme de produits et de services dans ce domaine, notamment des matériaux et des équipements de pointe pour la recherche scientifique et l'industrie.
+
+eNaNoTech est reconnue pour son expertise dans la synthèse de nanoparticules et la fabrication de nanomatériaux, ainsi que pour son engagement en faveur de l'innovation et de la durabilité. Elle collabore régulièrement avec des partenaires locaux et internationaux pour développer des solutions novatrices répondant aux besoins de différents secteurs, tels que l'énergie, l'environnement, la santé et l'électronique.
+
+L'entreprise eNaNoTech Monastir a une solide réputation dans l'industrie de la nanotechnologie et est un acteur clé dans la région de Monastir. Elle s'efforce de maintenir une croissance durable et d'investir dans des projets innovants pour renforcer sa position sur le marché mondial de la nanotechnologie.
+//Flesk Consulting
+
+FLESK Consulting est une entreprise basée à Monastir en Tunisie qui offre des services de conseil et d'expertise en gestion, en informatique et en ingénierie. L'entreprise se concentre sur la fourniture de solutions sur mesure pour les entreprises et les organisations, en mettant l'accent sur l'amélioration de la productivité, de la qualité et de la performance globale.
+
+FLESK Consulting propose une gamme de services de conseil, notamment en stratégie d'entreprise, en gestion de projet, en gestion des ressources humaines, en optimisation des processus, en sécurité informatique et en développement de logiciels. Elle s'efforce de fournir des solutions innovantes, efficaces et rentables pour aider ses clients à atteindre leurs objectifs commerciaux.
+
+L'entreprise est composée d'une équipe de professionnels expérimentés et qualifiés, qui ont une solide expérience dans le domaine du conseil et de l'expertise en gestion. Elle s'engage à offrir des services de haute qualité à ses clients et à établir des relations à long terme basées sur la confiance et le respect mutuel.
+
+//logo de l'entreprise
+
+//adresse
+
+1.3. Outil de Monitoring:
+La mise en place des systèmes d'information au sein des entreprises necessite un survi et une surveillance continue du materiel connécté.Cela dit il deviendra difficile pour un administrateur système de garantir cela dans une large topologie.d'ou nait le besoin de creer un outil de monitoring qui va assurer le suivi et la surveillance en temps reel et en continue du materiel connecté.
+
+2. Etude et critique de l’existant:
+4. Méthodologie de développement:
+Le cycle de vie d’un logiciel est l’ensemble des phases de développement d’un logiciel à suivre
+à partir de sa création jusqu’à sa disparition. Il en existe différents modèles dont :
+• Modèle en cascade (Waterfall) : Le modèle en cascade est un modèle de développement de logiciel linéaire et séquentiel. Il est appelé "cascade" car les différentes étapes du développement sont organisées en une séquence linéaire, chaque étape étant terminée avant que la suivante ne commence. 
+//image
+• Modèle en V :
+Le modèle en V est un modèle de développement de logiciel qui est basé sur le modèle en cascade. Le nom "V" vient de la forme en V que dessine le diagramme de la méthode.
+Le modèle en V divise les étapes du développement en deux grandes phases. D'un côté, on trouve les phases de spécification, de conception et de validation, et de l'autre côté, les phases de réalisation, de tests unitaires, d'intégration et de validation système.
+//image
+• Modèle en Agile :
+Elle est une approche itérative et incrémentale qui s'oppose à la 
+méthodologie en cascade. “Elle se veut plus souple et adaptée, et place les besoins du 
+client au centre des priorités du projet.
+//image
+4.1. Modèle en V:
+comme nous l'avons vu precedement le Modèle en V est un modèle de développement de logiciel qui se divise en deux phases principales : la phase de spécification et la phase de validation et de vérification.Plusieurs méthodologies peuvent être utilisées pour implémenter le modèle en V, voici quelques exemples :
+
+*V-Modell XT : Cette méthode a été développée en Allemagne et est utilisée principalement dans le secteur public. Elle s'appuie sur des processus de développement normalisés et des modèles de qualité, et met l'accent sur la documentation détaillée à chaque étape.
+
+*Rational Unified Process (RUP) : Cette méthode de développement logiciel est basée sur un processus itératif et incrémental. Elle fournit une structure pour organiser les activités de développement, de la planification initiale à la mise en production.
+
+*Test Driven Development (TDD) : Cette méthode met l'accent sur l'écriture de tests automatisés avant même de commencer à écrire du code. Les tests définissent les spécifications et les exigences et guident le processus de développement.
+
+*Agile en V : Cette méthode combine les principes du modèle Agile et du modèle en V pour fournir une approche flexible et itérative du développement de logiciel tout en suivant la structure de V.
+
+*Model-Based Testing (MBT) : Cette méthode se concentre sur l'utilisation de modèles pour générer des cas de tests. Les tests sont exécutés pour vérifier que le logiciel produit répond aux spécifications du modèle.
+
+
+\section{conclusion}
+\end{document}

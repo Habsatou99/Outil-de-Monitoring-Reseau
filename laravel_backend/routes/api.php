@@ -17,14 +17,23 @@ use Illuminate\Support\Facades\Route;
 /*Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });*/
-//
+
+//route for user
 
 Route::get('/','App\Http\Controllers\UserController@index');
+Route::get('/api/user','App\Http\Controllers\UserController@index');
 Route::post('/api/login','App\Http\Controllers\Api\Auth\AuthentificationController@login');
-Route::get('/api/equipements','App\Http\Controllers\EquipementController@equipement');
-Route::post('/api/save','App\Http\Controllers\EquipementController@store');
-Route::delete('/api/delete/{id}','App\Http\Controllers\EquipementController@destroy');
+//route for equipement
+Route::get('/api/equipements','App\Http\Controllers\EquipementController@equipements');
+Route::get('/api/equipements/{id}','App\Http\Controllers\EquipementController@getEquipementById');
 
-/*Route::group(['namespace'=>'Api\Auth'],function(){
-  
-});*/
+Route::post('/api/save','App\Http\Controllers\EquipementController@create');
+Route::delete('/api/delete/{id}','App\Http\Controllers\EquipementController@destroy');
+Route::put('/api/update/{id}','App\Http\Controllers\EquipementController@update');
+
+//route for ping
+Route::get('/api/ping1','App\Http\Controllers\PingController@time');
+Route::get('/api/ping/{ip_adress}','App\Http\Controllers\PingController@getPing');
+Route::post('/api/saveping/{ip_adress}','App\Http\Controllers\PingController@createPing');
+Route::delete('/api/pingdelete/{id}','App\Http\Controllers\PingController@destroy');
+Route::delete('/api/pingdeleteAll','App\Http\Controllers\PingController@destroyAll');

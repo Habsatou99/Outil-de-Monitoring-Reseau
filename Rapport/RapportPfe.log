@@ -1,0 +1,110 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.3.11)  25 MAR 2023 15:20
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./RapportPfe.tex
+(RapportPfe.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-09-28>
+(C:\Program Files\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
+(C:\Program Files\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count194
+\l__pdf_internal_box=\box51
+)
+(RapportPfe.aux)
+\openout1 = `RapportPfe.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 6.
+
+
+LaTeX Warning: No \author given.
+
+[1
+
+{C:/Users/habsa/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Overfull \hbox (15.11166pt too wide) in paragraph at lines 31--35
+\OT1/cmr/m/n/10 l'environnement de d^^Seveloppement et d'exposer les diff^^Sere
+ntes in-ter-faces d^^Sevelopp^^Sees
+ []
+
+
+Overfull \hbox (11.10246pt too wide) in paragraph at lines 31--35
+\OT1/cmr/m/n/10 pour notre syst^^Reme. Pour finir, nous ter-minerons ce pr^^Ses
+ent rap-port en r^^Secapitulant
+ []
+
+[1]
+Overfull \hbox (2.22275pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 qual-ifi^^Ses, qui ont une solide exp^^Serience dans le do-main
+e du con-seil et de l'expertise
+ []
+
+[2]
+Overfull \hbox (29.21353pt too wide) in paragraph at lines 86--87
+\OT1/cmr/m/n/10 prin-ci-pale-ment dans le secteur pub-lic. Elle s'appuie sur de
+s pro-ces-sus de d^^Seveloppement
+ []
+
+
+Overfull \hbox (20.02824pt too wide) in paragraph at lines 90--91
+\OT1/cmr/m/n/10 d^^Sefinissent les sp^^Secifications et les ex-i-gences et guid
+ent le pro-ces-sus de d^^Seveloppement. 
+ []
+
+[3] (RapportPfe.aux) ) 
+Here is how much of TeX's memory you used:
+ 477 strings out of 475385
+ 8756 string characters out of 2786722
+ 358997 words of memory out of 3000000
+ 21929 multiletter control sequences out of 15000+600000
+ 473234 words of font info for 41 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 34i,6n,38p,495b,190s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\habsa\AppData\Local\MiKTeX\fonts/pk/ljfour/jkn
+appen/ec/dpi600\tcrm1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.p
+fb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progra
+m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on RapportPfe.pdf (4 pages, 66732 bytes).
+PDF statistics:
+ 40 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
