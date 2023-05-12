@@ -30,7 +30,7 @@ class PingController extends Controller
     };
     
     $p1=Ping::all();
-  
+    //dd($p1);
   
     foreach ($p1 as $ping) {
       if($ping->ip_adress==$pings){
@@ -42,7 +42,7 @@ class PingController extends Controller
         $i=false;
       }*/  
   }
- 
+ //dd($p);
     //if($i==true)
     return response()->json($p,200); 
    }
@@ -53,12 +53,14 @@ class PingController extends Controller
       $match = "/temps[=<](\d+) [mM]s/"; 
       $res=utf8_encode(shell_exec("ping -n 3 $ip"));
       $test=preg_match($match,$res, $matches);
-      //dd($matches);
+     // $i="knk";
+      //dd($test);
       if($test==true){
         $pings=new Ping([
           'ip_adress'=>$ip,
           'result'=>$res,
           'time'=>(int) $matches[1],
+          //'color'=>$i
       ]);
      
       }
@@ -67,14 +69,11 @@ class PingController extends Controller
           'ip_adress'=>$ip,
           'result'=>$res, 
           'time'=>0,
+          //'color'=>$i
         ]);
      
       }
-     //dd($pings);
-      //$i=$pings['result'];
- 
-      //dd($i);
-      $pings->save();
+      $pings->save(); 
       return response()->json("Ping successful",200);
     }
 
@@ -88,25 +87,60 @@ class PingController extends Controller
         $pings->delete();
         return response()->json('deleted!',204);
     }
-
-    public function time()
+    //get date when one date
+    public function getPingDate1($date)
     {
- // Exécute la commande ping
-$host = 'www.example.com';
-exec("ping -n 3 $host", $output);
+      $p=[]; 
+      $p1 = Ping::orderBy('created_at', 'asc')->whereDate('created_at', $date)->get();
+      foreach ($p1 as $ping) {
+          $p[]=Ping::find($ping->id);
+      }
+      return response()->json($p);
+    }
+//get date when one date if specify ipAdress
+public function getPingDate($date,$pings)
+{
+  $p=[];
 
-// Utilise des expressions régulières pour extraire le maximum et le minimum
-if (preg_match('/Minimum = ([\d\+]) ms/', end($output), $matches)) {
-    $min = $matches[1];
-    $max = $matches[2];
+  $p1 = Ping::orderBy('created_at', 'asc')->whereDate('created_at', $date)->get();
+  //dd($p1);
+   foreach ($p1 as $ping) {
+     if($ping->ip_adress==$pings){
+       $p[]=Ping::find($ping->id);
+       //dd($p);
+     }
+
+  }
+
+
+return response()->json($p);
+}
+//get data beetween two different dates 
+public function getPingsBetweenDates1($start,$end)
+{
+  $p=[]; 
+  $p1 = Ping::orderBy('created_at', 'asc')->whereBetween('created_at', [$start, $end])->get();
+  foreach ($p1 as $ping) {
+      $p[]=Ping::find($ping->id);
+  }
+   return response()->json($p);
 }
 
-// Affiche le temps maximum et minimum
-//echo "Temps maximum: $max ms\n";
-echo "Temps minimum: $min ms\n";
+//get data between two different dates if specify ipidress
+public function getPingsBetweenDates($start, $end,$pings) {
+  $p=[]; 
+$p1 = Ping::orderBy('created_at', 'asc')->whereBetween('created_at', [$start, $end])->get();
+  foreach ($p1 as $ping) {
+    if($ping->ip_adress==$pings){
+      $p[]=Ping::find($ping->id);
+    }
+   
+}
+return response()->json($p);
+}
 
 
- }
+
 
      //delete pingAll
     /* public function destroyAll($id)

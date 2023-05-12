@@ -15,6 +15,7 @@ class Equipement extends Model
     [
         'name',
         'description',
+        'departement',
         'ip_adress',
         'type'
     ];

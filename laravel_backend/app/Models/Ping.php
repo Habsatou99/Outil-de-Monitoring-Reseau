@@ -14,5 +14,7 @@ class Ping extends Model
     [   'ip_adress',
         'result',
         'time',
+        //'color',
+         
     ];
 }

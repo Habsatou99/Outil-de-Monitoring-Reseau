@@ -17,6 +17,7 @@ class CreateEquipementsTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('description');
+            $table->string('departement');
             $table->string('ip_adress');
             $table->string('type');
             $table->timestamps();

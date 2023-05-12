@@ -32,6 +32,7 @@ class EquipementController extends Controller
       $equipements=new Equipement([
         'name'=>$request->input('name'),
         'description'=>$request->input('description'),
+        'departement'=>$request->input('departement'),
         'ip_adress'=>$request->input('ip_adress'),
         'type'=>$request->input('type'),
       ]);

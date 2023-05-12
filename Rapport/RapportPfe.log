@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.3.11)  25 MAR 2023 15:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.3.11)  2 MAY 2023 22:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -24,6 +24,32 @@ File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+\stockwidth=\dimen139
+\stockheight=\dimen140
+))
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+)
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count194
@@ -32,26 +58,47 @@ File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
 (RapportPfe.aux)
 \openout1 = `RapportPfe.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+ (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count195
+\scratchdimen=\dimen143
+\scratchbox=\box52
+\nofMPsegments=\count196
+\nofMParguments=\count197
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count198
+\MPscratchDim=\dimen144
+\MPnumerator=\count199
+\makeMPintoPDFobject=\count266
+\everyMPtoPDFconversion=\toks18
+) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 6.
+(Font)              <12> on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 6.
+(Font)              <8> on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 6.
+(Font)              <6> on input line 7.
 
 
 LaTeX Warning: No \author given.
@@ -59,52 +106,110 @@ LaTeX Warning: No \author given.
 [1
 
 {C:/Users/habsa/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Overfull \hbox (15.11166pt too wide) in paragraph at lines 31--35
+Overfull \hbox (15.11166pt too wide) in paragraph at lines 32--36
 \OT1/cmr/m/n/10 l'environnement de d^^Seveloppement et d'exposer les diff^^Sere
 ntes in-ter-faces d^^Sevelopp^^Sees
  []
 
 
-Overfull \hbox (11.10246pt too wide) in paragraph at lines 31--35
+Overfull \hbox (11.10246pt too wide) in paragraph at lines 32--36
 \OT1/cmr/m/n/10 pour notre syst^^Reme. Pour finir, nous ter-minerons ce pr^^Ses
 ent rap-port en r^^Secapitulant
  []
 
 [1]
-Overfull \hbox (2.22275pt too wide) in paragraph at lines 59--60
+<../../../Downloads/OIP.jpg, id=12, 223.83624pt x 234.8775pt>
+File: ../../../Downloads/OIP.jpg Graphic file (type jpg)
+<use ../../../Downloads/OIP.jpg>
+Package pdftex.def Info: ../../../Downloads/OIP.jpg  used on input line 53.
+(pdftex.def)             Requested size: 223.8357pt x 234.87692pt.
+
+Overfull \hbox (2.22275pt too wide) in paragraph at lines 52--54
 \OT1/cmr/m/n/10 qual-ifi^^Ses, qui ont une solide exp^^Serience dans le do-main
 e du con-seil et de l'expertise
  []
 
-[2]
-Overfull \hbox (29.21353pt too wide) in paragraph at lines 86--87
+[2 <../../../Downloads/OIP.jpg>]
+Overfull \hbox (10.13948pt too wide) in paragraph at lines 79--91
+\OT1/cmr/m/n/10 entes in-ter-ro-ga-tions sur les dif-fer-ents ma-teriels(point 
+d'acc^^Res,routeurs,vm,machines
+ []
+
+
+Overfull \hbox (8.38028pt too wide) in paragraph at lines 79--91
+\OT1/cmr/m/n/10 physiques,antenne....) -Creer un dash-board de mon-i-tor-ing pe
+r-me-t-tant de surveiller
+ []
+
+<../../../Downloads/InfleXsys_MethodeDevCascade-480x356.png, id=16, 481.8pt x 3
+57.335pt>
+File: ../../../Downloads/InfleXsys_MethodeDevCascade-480x356.png Graphic file (
+type png)
+<use ../../../Downloads/InfleXsys_MethodeDevCascade-480x356.png>
+Package pdftex.def Info: ../../../Downloads/InfleXsys_MethodeDevCascade-480x356
+.png  used on input line 92.
+(pdftex.def)             Requested size: 481.79881pt x 357.33412pt.
+
+Overfull \hbox (151.79881pt too wide) in paragraph at lines 92--93
+[][] 
+ []
+
+[3]
+<../../../Downloads/R.jpg, id=22, 640.3925pt x 480.79625pt>
+File: ../../../Downloads/R.jpg Graphic file (type jpg)
+<use ../../../Downloads/R.jpg>
+Package pdftex.def Info: ../../../Downloads/R.jpg  used on input line 98.
+(pdftex.def)             Requested size: 640.39093pt x 480.79506pt.
+
+Overfull \hbox (310.39093pt too wide) in paragraph at lines 98--99
+[][] 
+ []
+
+[4 <../../../Downloads/InfleXsys_MethodeDevCascade-480x356.png>]
+<../../../Downloads/fonctionnement-de-la-méthode-agile.jpg, id=27, 803.0pt x 5
+34.99875pt>
+File: ../../../Downloads/fonctionnement-de-la-méthode-agile.jpg Graphic file (
+type jpg)
+<use ../../../Downloads/fonctionnement-de-la-méthode-agile.jpg>
+Package pdftex.def Info: ../../../Downloads/fonctionnement-de-la-méthode-agile
+.jpg  used on input line 105.
+(pdftex.def)             Requested size: 401.49902pt x 267.49872pt.
+
+Overfull \hbox (347.62906pt too wide) in paragraph at lines 100--106
+\OT1/cmr/m/n/10 place les be-soins du client au cen-tre des pri-orit^^Ses du pr
+o-jet. //im-age [] 
+ []
+
+[5 <../../../Downloads/R.jpg>]
+Overfull \hbox (29.21353pt too wide) in paragraph at lines 110--111
 \OT1/cmr/m/n/10 prin-ci-pale-ment dans le secteur pub-lic. Elle s'appuie sur de
 s pro-ces-sus de d^^Seveloppement
  []
 
 
-Overfull \hbox (20.02824pt too wide) in paragraph at lines 90--91
+Overfull \hbox (20.02824pt too wide) in paragraph at lines 114--115
 \OT1/cmr/m/n/10 d^^Sefinissent les sp^^Secifications et les ex-i-gences et guid
 ent le pro-ces-sus de d^^Seveloppement. 
  []
 
-[3] (RapportPfe.aux) ) 
+[6 <../../../Downloads/fonctionnement-de-la-méthode-agile.jpg>] [7]
+(RapportPfe.aux) ) 
 Here is how much of TeX's memory you used:
- 477 strings out of 475385
- 8756 string characters out of 2786722
- 358997 words of memory out of 3000000
- 21929 multiletter control sequences out of 15000+600000
+ 1355 strings out of 475385
+ 22840 string characters out of 2786722
+ 370230 words of memory out of 3000000
+ 22765 multiletter control sequences out of 15000+600000
  473234 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,6n,38p,495b,190s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\habsa\AppData\Local\MiKTeX\fonts/pk/ljfour/jkn
-appen/ec/dpi600\tcrm1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.p
-fb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progra
-m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on RapportPfe.pdf (4 pages, 66732 bytes).
+ 55i,6n,62p,498b,190s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\habsa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappe
+n/ec/dpi600\tcrm1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fi
+les/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on RapportPfe.pdf (8 pages, 201492 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
+ 60 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

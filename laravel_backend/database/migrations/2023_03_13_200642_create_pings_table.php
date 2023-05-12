@@ -18,6 +18,7 @@ class CreatePingsTable extends Migration
             $table->string('ip_adress');
             $table->string('result');
             $table->integer('time');
+           // $table->string('color');
             $table->timestamps();
         });
     }

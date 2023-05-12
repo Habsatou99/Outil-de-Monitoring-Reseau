@@ -32,8 +32,12 @@ Route::delete('/api/delete/{id}','App\Http\Controllers\EquipementController@dest
 Route::put('/api/update/{id}','App\Http\Controllers\EquipementController@update');
 
 //route for ping
-Route::get('/api/ping1','App\Http\Controllers\PingController@time');
+Route::get('/api/ping','App\Http\Controllers\PingController@pings');
 Route::get('/api/ping/{ip_adress}','App\Http\Controllers\PingController@getPing');
 Route::post('/api/saveping/{ip_adress}','App\Http\Controllers\PingController@createPing');
 Route::delete('/api/pingdelete/{id}','App\Http\Controllers\PingController@destroy');
 Route::delete('/api/pingdeleteAll','App\Http\Controllers\PingController@destroyAll');
+Route::get('/api/pingData/{start}/{end}/{ip_adress}','App\Http\Controllers\PingController@getPingsBetweenDates');
+Route::get('/api/pingOneData/{date}/{ip_adress}','App\Http\Controllers\PingController@getPingDate');
+Route::get('/api/pingData1/{start}/{end}','App\Http\Controllers\PingController@getPingsBetweenDates1');
+Route::get('/api/pingOneData1/{date}','App\Http\Controllers\PingController@getPingDate1');
