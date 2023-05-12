@@ -7,7 +7,7 @@ angular-auth/out-tsc
 angular-auth/bazel-out
 
 # Node
-angular-auth/node_modules
+#angular-auth/node_modules
 angular-auth/npm-debug.log
 angular-auth/yarn-error.log
 
