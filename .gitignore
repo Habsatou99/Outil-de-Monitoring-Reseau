@@ -1,0 +1,42 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+angular-auth/dist
+angular-auth/tmp
+angular-auth/out-tsc
+angular-auth/bazel-out
+
+# Node
+angular-auth/node_modules
+angular-auth/npm-debug.log
+angular-auth/yarn-error.log
+
+# IDEs and editors
+angular-auth/.idea/
+angular-auth/.project
+angular-auth/.classpath
+angular-auth/.c9/
+angular-auth/*.launch
+angular-auth/.settings/
+angular-auth/*.sublime-workspace
+
+# Visual Studio Code
+angular-auth/.vscode/*
+!angular-auth/.vscode/settings.json
+!angular-auth/.vscode/tasks.json
+!angular-auth/.vscode/launch.json
+!angular-auth/.vscode/extensions.json
+angular-auth/.history/*
+
+# Miscellaneous
+angular-auth/.angular/cache
+angular-auth.sass-cache/
+angular-auth/connect.lock
+angular-auth/coverage
+angular-auth/libpeerconnection.log
+angular-auth/testem.log
+angular-auth/typings
+
+# System files
+angular-auth/.DS_Store
+angular-auth/Thumbs.db
